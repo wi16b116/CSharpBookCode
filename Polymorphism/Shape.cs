@@ -8,7 +8,7 @@ namespace Polymorphism
 {
     class Shape
     {
-        public void Draw()
+        public virtual void Draw()
         {
             Console.WriteLine("Drawing a Shape...");
         }

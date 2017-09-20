@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Polymorphism
 {
-    class Circle : Shape
+    class Rectangle : Shape
     {
         public override void Draw()
         {
-            Console.WriteLine("Drawing a circle...");
+            Console.WriteLine("Drawing a Rectangle...");
         }
     }
 }
